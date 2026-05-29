@@ -1,8 +1,12 @@
-"""Entrypoint for the ATO organization service scaffold."""
+"""Entrypoint for the ATO organization service."""
+
+from api import create_app
+
+app = create_app()
 
 
 def main() -> int:
-    """Validate that the service scaffold can execute."""
+    """Validate that the service application can be imported."""
     return 0
 
 
